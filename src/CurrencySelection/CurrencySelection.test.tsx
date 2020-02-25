@@ -2,7 +2,7 @@
 import React from "react";
 import { render, mount } from "enzyme";
 import { CurrencySelection } from "./CurrencySelection";
-import { IsoCurrency } from "./Currency";
+import { IsoCurrency } from "./Currency/Currency";
 
 const currencies = [
   IsoCurrency.CZK,

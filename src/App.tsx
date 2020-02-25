@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { IsoCurrency } from './CurrencySelection/Currency';
+import { IsoCurrency } from './CurrencySelection/Currency/Currency';
 import { CurrencySelection } from './CurrencySelection/CurrencySelection';
 
 const currencies = [

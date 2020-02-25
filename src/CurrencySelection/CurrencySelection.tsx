@@ -5,8 +5,8 @@ import {
   CurrencyComponent,
   CurrencyComponentProps,
   IsoCurrency,
-} from "./Currency";
-import { SelectedCurrency } from "./SelectedCurrency";
+} from "./Currency/Currency";
+import { SelectedCurrency } from "./SelectedCurrency/SelectedCurrency";
 
 const MaxCurrencies = 6;
 

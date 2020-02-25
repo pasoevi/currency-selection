@@ -16,7 +16,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Tests are written using `jest` and `enzyme`.
 
+Test changed files:
+
 `yarn test`
+
+Test all files:
+
+`yarn test-all`
 
 ## Build for production
 

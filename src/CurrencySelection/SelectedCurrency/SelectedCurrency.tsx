@@ -1,6 +1,6 @@
 import * as styles from "./SelectedCurrency.module.css";
 import React from "react";
-import { IsoCurrency } from "./Currency";
+import { IsoCurrency } from "../Currency/Currency";
 
 export interface SelectedCurrencyProps {
   isoCurrency: IsoCurrency;

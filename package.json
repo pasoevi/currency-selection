@@ -21,6 +21,7 @@
     "start:js": "react-scripts start",
     "start": "npm-run-all start:js start:css",
     "build": "react-scripts build",
+    "test-all": "react-scripts test --watchAll",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
