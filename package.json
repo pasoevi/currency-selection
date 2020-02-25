@@ -1,5 +1,6 @@
 {
   "name": "currency-selection",
+  "homepage": "https://pasoevi.github.io/currency-selection",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +12,7 @@
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
     "classnames": "^2.2.6",
+    "gh-pages": "^2.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.4.0",
@@ -23,6 +25,8 @@
     "build": "react-scripts build",
     "test-all": "react-scripts test --watchAll",
     "test": "react-scripts test",
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
